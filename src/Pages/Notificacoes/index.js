@@ -1,0 +1,1 @@
+export {default as Notificacoes} from './notificacoes'

@@ -50,7 +50,13 @@ const estilo = StyleSheet.create({
     register : {
         marginTop: 10,
         
+    },
+    textoMensagem: {
+        color: '#cc00cc',
+        padding: 7,
+        fontWeight: 'bold'
     }
+
     
 })
 
