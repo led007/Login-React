@@ -29,12 +29,9 @@ const Usuarios = ({navigation}) => {
 
                         return (
 
-                            <TouchableOpacity 
-                                onPress={() => navigation.navigate('Usuario', {dadosUsuario})}
-                            >
+                            
                                 <CardUsuario dadosUsuario={item} />
-                            </TouchableOpacity>
-
+                            
                         )}
                     }
 

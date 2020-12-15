@@ -13,7 +13,7 @@ export default function App() {
   return (
     <NavigationContainer>
     <Navegacao.Navigator 
-      initialRouteName="Inicio"
+      initialRouteName="Login"
     >
       <Navegacao.Screen
         name="Login" 

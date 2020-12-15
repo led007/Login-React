@@ -2,24 +2,28 @@ import React from 'react';
 import {StyleSheet} from 'react-native';
 
 const estilo = StyleSheet.create({
-    container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center'
-	},
-	iconTabRound: {
-        width: 60,
+    card: {
+        backgroundColor: '#fff',
         height: 60,
-        borderRadius: 30,
-        marginBottom: 20,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        elevation: 6,
-        shadowColor: '#9C27B0',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
-        shadowRadius: 5,
+        margin: 5,
+        borderRadius: 10
+
+    },
+    bg : {
+        backgroundColor: '#e6ccff'
+    },
+    img: {
+        width: 50,
+        height: 50,
+        borderRadius: 10,
+        margin: 5
+    },
+    not: {
+        flexDirection: 'row'
+    },
+    com: {
+        fontSize: 20,
+        margin: 10
     }
 
 })

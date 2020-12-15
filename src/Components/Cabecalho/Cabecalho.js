@@ -13,7 +13,7 @@ const Cabecalho = ({nomeUsuario, emailUsuario, fotoUsuario, idUsuario, navigatio
     }
     return (
 
-        <TouchableOpacity 
+        <View
             style={estilo.cabecalho}
             
         >
@@ -25,7 +25,7 @@ const Cabecalho = ({nomeUsuario, emailUsuario, fotoUsuario, idUsuario, navigatio
                 <Text style={estilo.nome}>{nomeUsuario}</Text>
                 <Text>{emailUsuario}</Text>
             </View>
-        </TouchableOpacity>
+        </View>
     )
 }
 
