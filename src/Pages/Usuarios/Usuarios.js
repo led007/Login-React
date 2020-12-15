@@ -10,7 +10,7 @@ const Usuarios = ({navigation}) => {
 
     useEffect(() => {
         getUsuarios(setUsuarios);
-        navigation.setOptions({ title: 'Usuários cadastrados' })
+        navigation.setOptions({ title: 'Usuários' })
     },[])
 
     return (
