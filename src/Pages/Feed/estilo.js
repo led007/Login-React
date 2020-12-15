@@ -27,7 +27,15 @@ const estilo = StyleSheet.create({
     },
     user: {
         width: 50,
-        height: 50 
+        height: 50
+        
+    },
+    carduser: {
+        margin: 5
+    },
+    bg: {
+        backgroundColor: '#e6ccff',
+        
     }
    
    

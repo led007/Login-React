@@ -15,7 +15,7 @@ export default function App() {
     <Navegacao.Navigator 
       initialRouteName="Inicio"
     >
-      <Navegacao.Screen 
+      <Navegacao.Screen
         name="Login" 
         component={Login} 
         options={{

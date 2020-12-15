@@ -52,7 +52,7 @@ const estilo = StyleSheet.create({
         
     },
     textoMensagem: {
-        color: '#cc00cc',
+        color: '#f3e6ff',
         padding: 7,
         fontWeight: 'bold'
     }

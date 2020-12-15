@@ -6,6 +6,7 @@ import { Cabecalho } from '../../Components/Cabecalho';
 
 
 
+
 const dados = [1,2,3,4,5];
 
 const Feed = ({navigation}) => {
@@ -19,7 +20,7 @@ const Feed = ({navigation}) => {
 
     return (
         <ScrollView style={estilo.bg}>
-        <View>
+        <View >
             <FlatList
             
                 horizontal={true}

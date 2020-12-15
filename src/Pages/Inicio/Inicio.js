@@ -10,6 +10,7 @@ import { Notificacoes } from '../Notificacoes';
 
 
 
+
 const NavegacaoTabs = createBottomTabNavigator();
 
 const Inicio = ({route, navigation}) => {
@@ -42,7 +43,6 @@ const Inicio = ({route, navigation}) => {
             inactiveTintColor: '#777',
             showLabel: false,
           }}  
-        
         
         >
             <NavegacaoTabs.Screen name="Feed" component={Feed} navigation={navigation} options={{ title: 'Página de feed' }} />
