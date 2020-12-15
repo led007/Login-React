@@ -25,6 +25,8 @@ const Usuarios = ({navigation}) => {
                                 dadosUsuario.emailUsuario = item.email 
                                 dadosUsuario.fotoUsuario = item.picture 
                                 dadosUsuario.idUsuario = item.id
+                                dadosUsuario.idUsuario = item.location
+
                         return (
 
                             <TouchableOpacity 
